@@ -48,6 +48,15 @@ li{
   display: flex;
   justify-content: flex-start;
 }
+.nav__item-last{
+  color: #fff;
+  float: right;  
+}
+@media screen and (max-width: 475px) {
+.nav__item-last {
+  display: none;
+}
+}
 .nav__item {
   margin: 0 20px;
   float: left;
