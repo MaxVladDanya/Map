@@ -66,8 +66,7 @@ li{
     margin: 0 10px;
   }
 }
-
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 1000px) {
   .nav__item-last {
     display: none;
   }
