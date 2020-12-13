@@ -52,11 +52,7 @@ li{
   color: #fff;
   float: right;  
 }
-@media screen and (max-width: 475px) {
-.nav__item-last {
-  display: none;
-}
-}
+
 .nav__item {
   margin: 0 20px;
   float: left;
@@ -69,6 +65,13 @@ li{
     margin: 0 10px;
   }
 }
+
+@media screen and (max-width: 475px) {
+  .nav__item-last {
+    display: none;
+  }
+}
+
 .nav__item a {
   text-decoration: none;
   color: white;
