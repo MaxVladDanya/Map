@@ -2,7 +2,7 @@ let btn = document.getElementsByClassName('close__button');
 let fav = document.getElementsByClassName('fav__item');
 
 $('.slider').slick({
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 300,
   slidesToShow: 1,
