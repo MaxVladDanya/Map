@@ -1,0 +1,92 @@
+                                        /*       range-slider      */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.block-filter{
+    &__slider-distance, 
+    &__slider-rooms,
+    &__slider-price{
+        margin: 8px 0 20px 0;
+        width: 80%;
+        right: -40px
+    }
+    &__title{
+        display: flex;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 0 5px;
+        margin: 15px 0;
+    }
+    
+    &__label{    
+        display: flex;
+        align-items: center;
+        width: 130px; 
+        height: 30px;
+        border-radius: 4px;
+        padding: 0 15px;
+        border: 2px #3d3d3d solid;    
+    }
+    &__text{
+        position: relative;
+        top: -1px;
+        text-align: center;
+        font-size: 14px;
+        color: #000;
+        margin-right: 10px;
+    }
+    &__inputs{
+        display: flex;
+        justify-content: space-around;    
+    }
+    &__input{
+        background-color: transparent;
+        border: none;
+        color: #000;
+
+    }
+}
+
+.noUi-connect{
+    background-color: #000;
+}
+
+.noUi-target{
+    background:#8c8c8c;
+    border: none;
+    box-shadow: none;
+    height: 2px; 
+}
+.noUi-handle{
+    outline: none;
+    box-shadow: none;
+    border-radius: 100%;
+    border: 3px solid #000;
+    // background-color: transparent;
+    cursor: pointer;
+
+    &::after,
+    &::before{
+        display: none;
+    }
+}
+.noUi-horizontal .noUi-handle{
+    top: -9px;
+    width: 22px;
+    height: 22px;    
+}
+
+.noUi-horizontal .noUi-handle-upper{
+   right: 0;
+}
+.noUi-horizontal .noUi-handle-lower{
+   right: 0;
+}
+

@@ -1,0 +1,141 @@
+body{
+  background-image: url(../img/background.jpg);
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  color: black;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+/* Header + Nav */
+
+.mainer{
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.header{
+  padding: 15px;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 10px #3d3d3d solid;
+}
+
+.nav{
+  display: flex;
+}
+.nav__item{
+  margin: 0 20px;
+    float: left;
+    font-size: 50px;
+    align-items: flex-end;
+}
+
+.nav__item a{
+  text-decoration: none;
+    color: white;
+    transition: color .2s linear;
+}
+
+.nav__item a:hover{
+  color: #3d3d3d;
+}
+
+/* Favourites */
+.fav__item{
+  background-color: #787878;
+  display: block;
+  padding: 15px;
+  margin-left: 10px;
+  margin-top: 15px;
+  width: 90%;
+  border: 3px black solid;
+}
+
+.fav__inside{
+
+  display: flex;
+  justify-content: space-between;
+}
+.fav__inside__item{
+
+  margin-left: 10px;
+  margin-right: 40px;
+  flex-direction: row;
+}
+/* Fav Text */
+
+.fav__text{
+  padding: 10px;
+  font-size: 20px;
+  background-color: #cccccc;
+}
+.fav__contact{
+
+  font-size: 45px;
+  padding: 10px;
+  padding-left: 20px;
+}
+.fa-phone{
+  border: 2px black solid;
+  border-radius: 50%;
+  padding: 15px;
+  background-color: #fff;
+  margin-right: 10px;
+  font-size: 50px;
+}
+
+
+/* Slider */
+.slider{
+  border: 2px black solid;
+  width: 300px;
+  background-color: #787878;
+  text-align: -webkit-center;
+  align-items: center;
+}
+
+.slider__item img{
+  border: 1px #3d3d3d solid;
+  max-width: 300px;
+  width: 100%;
+  height: 100%;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black;
+}
+.slick-dots li button::before {
+    margin-top: 10px;
+    font-family: slick;
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    content: "•";
+    text-align: center;
+    opacity: 0.25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* Close button */
+
+.close__button i{
+
+  margin-right: -45px;
+  margin-left: 20px;
+  color: #e8e8e8;
+}
