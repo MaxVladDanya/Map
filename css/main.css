@@ -183,6 +183,11 @@ body {
   color: #fff;
   padding: 0 0 0 550px;
 }
+@media screen and (max-width: 475px) {
+  .nav__item-last {
+    display: none;
+  }
+}
 .nav__item a {
   text-decoration: none;
   color: white;

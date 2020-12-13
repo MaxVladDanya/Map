@@ -47,6 +47,9 @@ body{
     &-last{
       color: #fff;
       padding: 0 0 0 550px;
+      @media screen and (max-width: 475px){
+        display: none;
+      }
     } 
   }
 
