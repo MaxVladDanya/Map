@@ -152,7 +152,7 @@ body {
 
 .header {
   padding: 10px 0px;
-  height: 100px;
+  height: 85px;
   width: 100%;
   background-color: black;
   border-bottom: 10px #3d3d3d solid;
@@ -178,6 +178,10 @@ body {
     font-size: 40px;
     margin: 0 10px;
   }
+}
+.nav__item-last {
+  color: #fff;
+  padding: 0 0 0 550px;
 }
 .nav__item a {
   text-decoration: none;

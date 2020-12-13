@@ -33,7 +33,7 @@ li{
 
 .header {
   padding: 10px 0px;
-  height: 100px;
+  height: 85px;
   width: 100%;
   background-color: black;
   border-bottom: 10px #3d3d3d solid;
@@ -50,7 +50,8 @@ li{
 }
 .nav__item-last{
   color: #fff;
-  float: right;  
+  /* float: right;   */
+  padding: 0 0 0 550px;
 }
 
 .nav__item {
